@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    transition: all 400ms;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.item{
+    width: 100px;
+    height: 380px;
+    box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+
+
+.items1,.box1{
+    background: red;
+    width: 50px;
+    height: 50px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.items2,.box2{
+    background: yellow;
+    width: 50px;
+    height: 50px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.items3,.box3{
+    background: blue;
+    width: 50px;
+    height: 50px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.items4,.box4{
+    background: green;
+    width: 50px;
+    height: 50px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.items5,.box5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 50px;
+    height: 50px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocks{
+    width: 200px;
+    height: 200px;
+    border: solid 5px gray;
+    background: white;
+    border-radius: 15px;
+    margin: 25px;
+    transition: all 400ms;
+}
+
+.box{
+    width: 100px;
+    height: 380px;
+    box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.h2{
+    margin-bottom: 14px;
+    font-size: 20px;
+    font-weight: bold;
+}
